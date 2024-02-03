@@ -115,7 +115,7 @@ fi
 echo ""
 
 # Install Yay
-# _installYay
+_installYay
 
 # Confirm Start
 echo -e "${GREEN}"
