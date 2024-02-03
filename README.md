@@ -19,7 +19,7 @@ The script will install the following packages:
 - Launcher: rofi 
 - Launcher: wofi #optional
 - Terminal: kitty #optional
-- Terminal: alacritty 
+- Terminal: kitty 
 - Notification Service: dunst 
 - File Manager: dolphin 
 - xdg-desktop-portal-hyprland 
@@ -35,7 +35,7 @@ You can customize the script by adding more packages to the installation command
 ```
 # Install packages 
 # PLEASE NOTE: Add more packages at the end of the following command
-sudo pacman -S hyprland waybar rofi wofi kitty alacritty dunst dolphin xdg-desktop-portal-hyprland qt5-wayland qt6-wayland hyprpaper chromium ttf-font-awesome
+sudo pacman -S hyprland waybar rofi wofi kitty dunst dolphin xdg-desktop-portal-hyprland qt5-wayland qt6-wayland hyprpaper chromium ttf-font-awesome
 
 # Install yay packages
 # PLEASE NOTE: Add more packages at the end of the following command
@@ -67,7 +67,7 @@ cd hyprland-starter
 
 The following custom key bindings are enabled (can be customized in ~/.config/hypr/hyprland.conf)
 
-- <kbd>SUPER</kbd> + <kbd>RETURN</kbd> to start terminal alacritty
+- <kbd>SUPER</kbd> + <kbd>RETURN</kbd> to start terminal kitty
 - <kbd>SUPER</kbd> + <kbd>Q</kbd> to quit an application
 - <kbd>SUPER</kbd> + <kbd>B</kbd> to start browser chromium
 - <kbd>SUPER</kbd> + <kbd>M</kbd> to exit Hyprland

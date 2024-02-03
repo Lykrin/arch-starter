@@ -152,7 +152,7 @@ sudo pacman -S waybar rofi wofi kitty dunst thunar xdg-desktop-portal-hyprland q
 # Install yay packages
 # PLEASE NOTE: Add more packages at the end of the following command
 yay -S zsh hyprland-git ttf-firacode-nerd noto-fonts noto-fonts-emoji ttf-nerd-fonts-symbols-common otf-firamono-nerd brave-bin pipewire lib32-pipewire wireplumber \
-    pipewire-audio pipewire-pulse pipewire-alsa pipewire-jack lib32-pipewire-jack 
+    pipewire-audio pipewire-pulse pipewire-alsa pipewire-jack lib32-pipewire-jack vesktop-git motivewave-bin vscodium-bin
 
 # Copy configuration
 if gum confirm "DO YOU WANT TO COPY THE PREPARED dotfiles INTO .config? (YOU CAN ALSO DO THIS MANUALLY)" ;then
